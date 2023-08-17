@@ -8,7 +8,7 @@ image_file="image_list.txt"
 new_registry="new.registry.com"
 
 # Log in to the new registry
-docker login $new_registry
+#docker login $new_registry
 
 # Read the image names from the file and process them
 while IFS= read -r image_name || [[ -n "$image_name" ]]; do
